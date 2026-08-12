@@ -1,16 +1,13 @@
 # TextToSpeech (TTS) models outputs for Turkish
 
-Çoğu lokal LLM olarak çalışan Türkçe metin-sentez (TTS) modelleriyle üretilmiş ses örnekleri. 
+Audio samples generated with Turkish text-to-speech (TTS) models, most of which run as local LLMs.
 
-## Sayfa önizlemesi
+## Page preview
 
-[![Oyuncu sayfası önizlemesi](assets/player-preview-v2.png)](https://karagullemazhar-cpu.github.io/TextToSpeech-TTS-models-outputs-for-Turkish/)
+[![Player page preview](assets/player-preview-v2.png)](https://karagullemazhar-cpu.github.io/TextToSpeech-TTS-models-outputs-for-Turkish/)
 
-> Not: GitHub, README işaretleyicisine etkileşimli canlı bir sayfa gömmeyi (iframe) olduğu gibi,
-> gömülü ses oynatıcıyı da desteklemez. Oynatıcı sayfası GitHub Pages üzerinden sunulur ve
-> sayfa yukarıdaki görsele/bağlantıya tıklanarak açılır; tek tek dosyalar da GitHub'ın dosya
-> görüntüleyicisinde çalınabilir.
+> Note: GitHub does not support embedding an interactive live page (iframe) or an inline audio player in the README markup. The player page is served via GitHub Pages and opens when you click the image/link above; individual files can also be played through GitHub's own file viewer.
 
-## Notlar
+## Notes
 
-- Tüm dosyalar tarayıcıda oynatılabilir WAV / MP3 formatındadır.
+- All files are browser-playable WAV / MP3 format.
