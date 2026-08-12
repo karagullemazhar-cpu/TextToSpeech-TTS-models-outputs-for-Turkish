@@ -8,8 +8,14 @@ Tüm sesleri tek sayfada ▶ düğmeleriyle çalın:
 
 **▶ https://karagullemazhar-cpu.github.io/TextToSpeech-TTS-models-outputs-for-Turkish/**
 
-> Not: GitHub, README işaretleyicisine gömülü canlı ses oynatıcıyı desteklemez.
-> Bu yüzden oynatıcı sayfası GitHub Pages üzerinden sunulur; tek tek dosyalar da GitHub'ın dosya görüntüleyicisinde çalınabilir.
+Sayfa önizlemesi:
+
+[![Oyuncu sayfası önizlemesi](assets/player-preview.png)](https://karagullemazhar-cpu.github.io/TextToSpeech-TTS-models-outputs-for-Turkish/)
+
+> Not: GitHub, README işaretleyicisine etkileşimli canlı bir sayfa gömmeyi (iframe) olduğu gibi,
+> gömülü ses oynatıcıyı da desteklemez. Oynatıcı sayfası GitHub Pages üzerinden sunulur ve
+> sayfa yukarıdaki görsele/bağlantıya tıklanarak açılır; tek tek dosyalar da GitHub'ın dosya
+> görüntüleyicisinde çalınabilir.
 
 ## Model → Ses dosyası
 
