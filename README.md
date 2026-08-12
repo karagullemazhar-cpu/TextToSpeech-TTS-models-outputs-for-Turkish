@@ -13,5 +13,4 @@ Türkçe metin-sentez (TTS) modelleriyle üretilmiş ses örnekleri.
 
 ## Notlar
 
-- Kişisel ses klonu içeren örnekler (dosya adında "mazhar" geçenler) bu repoya dahil edilmemiştir.
 - Tüm dosyalar tarayıcıda oynatılabilir WAV / MP3 formatındadır.
