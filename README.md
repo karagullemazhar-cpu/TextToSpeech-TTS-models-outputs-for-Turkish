@@ -1,6 +1,6 @@
 # TextToSpeech (TTS) models outputs for Turkish
 
-Audio samples generated with Turkish text-to-speech (TTS) models, most of which run as local LLMs.
+Audio samples generated with Turkish text-to-speech (TTS) models, most of which run as local models.
 
 ## Page preview
 
