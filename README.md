@@ -2,7 +2,7 @@
 
 Türkçe metin-sentez (TTS) modelleriyle üretilmiş ses örnekleri.
 
-Sayfa önizlemesi:
+## Sayfa önizlemesi
 
 [![Oyuncu sayfası önizlemesi](assets/player-preview.png)](https://karagullemazhar-cpu.github.io/TextToSpeech-TTS-models-outputs-for-Turkish/)
 
@@ -16,16 +16,9 @@ Sayfa önizlemesi:
 | Model | Ses Dosyası |
 |-------|-------------|
 | Moonshine | [fahrettin_istanbul.wav](Moonshine/fahrettin_istanbul.wav) |
-| Supertonic | [2paragraf.wav](Supertonic/2paragraf.wav) |
 | Supertonic 3 | [istanbul.wav](Supertonic3/istanbul.wav) |
 | VoxCPM2 | [2paragraf.wav](VoxCPM2/2paragraf.wav) |
-| XTTS v2 | [xtts_v2.wav](XTTS-v2/xtts_v2.wav) |
-| Chatterbox | [chatterbox.wav](Chatterbox/chatterbox.wav) |
 | Chatterbox 3 | [istanbul.wav](Chatterbox3/istanbul.wav) |
-| Edge TTS | [ahmet.mp3](Edge-TTS/ahmet.mp3) |
-| Edge TTS (2 paragraf) | [2paragraf.mp3](Edge-TTS/2paragraf.mp3) |
-| Piper (dfki) | [dfki_iyi.wav](Piper-dfki/dfki_iyi.wav) |
-| Piper (dfki medium) | [dfki_medium_istanbul.wav](Piper-dfki/dfki_medium_istanbul.wav) |
 | FreyaTTS | [istanbul.wav](FreyaTTS/istanbul.wav) |
 | Gemini 3.1 Flash TTS | [Istanbul.wav](Gemini-3.1-Flash-TTS/Istanbul.wav) |
 | Gemini 3.1 Flash TTS (Aoede) | [Aoede_Istanbul.wav](Gemini-3.1-Flash-TTS/Aoede_Istanbul.wav) |
