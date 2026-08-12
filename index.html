@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TTS Türkçe Ses Örnekleri — Oynatıcı</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 860px; margin: 2rem auto; padding: 0 1rem; background:#0d1117; color:#e6edf3; }
+  h1 { font-size:1.5rem; }
+  .note { opacity:.8; font-size:.9rem; }
+  table { width:100%; border-collapse: collapse; margin-top:1rem; }
+  th, td { text-align:left; padding:.6rem .5rem; border-bottom:1px solid #30363d; vertical-align:middle; }
+  th { color:#8b949e; font-weight:600; font-size:.85rem; text-transform:uppercase; letter-spacing:.02em; }
+  audio { width: 100%; min-width: 220px; height: 40px; }
+  a { color:#58a6ff; text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .fname { font-size:.8rem; color:#8b949e; }
+</style>
+</head>
+<body>
+<h1>🎧 TTS Türkçe Ses Örnekleri</h1>
+<p class="note">Her satırdaki ▶ düğmesine basarak sesi bu sayfada çalabilirsiniz.</p>
+<table>
+  <thead><tr><th>Model</th><th>Ses Oynatıcı</th></tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+<p class="note">Kaynak: <a href="https://github.com/karagullemazhar-cpu/TextToSpeech-TTS-models-outputs-for-Turkish">github.com/karagullemazhar-cpu/TextToSpeech-TTS-models-outputs-for-Turkish</a></p>
+
+<script>
+const files = [
+  { model:"Moonshine",                file:"Moonshine/fahrettin_istanbul.wav" },
+  { model:"Supertonic",               file:"Supertonic/2paragraf.wav" },
+  { model:"Supertonic 3",             file:"Supertonic3/istanbul.wav" },
+  { model:"VoxCPM2",                  file:"VoxCPM2/2paragraf.wav" },
+  { model:"XTTS v2",                  file:"XTTS-v2/xtts_v2.wav" },
+  { model:"Chatterbox",               file:"Chatterbox/chatterbox.wav" },
+  { model:"Chatterbox 3",             file:"Chatterbox3/istanbul.wav" },
+  { model:"Edge TTS",                 file:"Edge-TTS/ahmet.mp3" },
+  { model:"Edge TTS (2 paragraf)",    file:"Edge-TTS/2paragraf.mp3" },
+  { model:"Piper (dfki)",             file:"Piper-dfki/dfki_iyi.wav" },
+  { model:"Piper (dfki medium)",      file:"Piper-dfki/dfki_medium_istanbul.wav" },
+  { model:"FreyaTTS",                 file:"FreyaTTS/istanbul.wav" },
+  { model:"Gemini 3.1 Flash TTS",     file:"Gemini-3.1-Flash-TTS/Istanbul.wav" },
+  { model:"Gemini 3.1 Flash TTS (Aoede)", file:"Gemini-3.1-Flash-TTS/Aoede_Istanbul.wav" },
+  { model:"Fish Speech S2.1 Pro",     file:"FishSpeech-S2.1-Pro/istanbul_s2.1-pro-free.mp3" },
+];
+const tb = document.getElementById("rows");
+for (const f of files) {
+  const tr = document.createElement("tr");
+  tr.innerHTML =
+    "<td><strong>"+f.model+"</strong></td>" +
+    "<td><audio controls preload=\"none\" src=\""+f.file+"\"></audio>" +
+    "<div class=\"fname\"><a href=\""+f.file+"\" download>"+f.file+"</a></div></td>";
+  tb.appendChild(tr);
+}
+</script>
+</body>
+</html>
