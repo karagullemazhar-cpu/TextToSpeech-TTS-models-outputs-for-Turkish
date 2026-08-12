@@ -4,7 +4,7 @@ Türkçe metin-sentez (TTS) modelleriyle üretilmiş ses örnekleri.
 
 ## Sayfa önizlemesi
 
-[![Oyuncu sayfası önizlemesi](assets/player-preview.png)](https://karagullemazhar-cpu.github.io/TextToSpeech-TTS-models-outputs-for-Turkish/)
+[![Oyuncu sayfası önizlemesi](assets/player-preview-v2.png)](https://karagullemazhar-cpu.github.io/TextToSpeech-TTS-models-outputs-for-Turkish/)
 
 > Not: GitHub, README işaretleyicisine etkileşimli canlı bir sayfa gömmeyi (iframe) olduğu gibi,
 > gömülü ses oynatıcıyı da desteklemez. Oynatıcı sayfası GitHub Pages üzerinden sunulur ve
