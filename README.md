@@ -2,12 +2,6 @@
 
 Türkçe metin-sentez (TTS) modelleriyle üretilmiş ses örnekleri.
 
-## 🔊 Sesleri çal
-
-Tüm sesleri tek sayfada ▶ düğmeleriyle çalın:
-
-**▶ https://karagullemazhar-cpu.github.io/TextToSpeech-TTS-models-outputs-for-Turkish/**
-
 Sayfa önizlemesi:
 
 [![Oyuncu sayfası önizlemesi](assets/player-preview.png)](https://karagullemazhar-cpu.github.io/TextToSpeech-TTS-models-outputs-for-Turkish/)
