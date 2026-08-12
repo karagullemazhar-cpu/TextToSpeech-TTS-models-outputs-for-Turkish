@@ -1,6 +1,6 @@
 # TextToSpeech (TTS) models outputs for Turkish
 
-Türkçe metin-sentez (TTS) modelleriyle üretilmiş ses örnekleri.
+Çoğu lokal LLM olarak çalışan Türkçe metin-sentez (TTS) modelleriyle üretilmiş ses örnekleri. 
 
 ## Sayfa önizlemesi
 
